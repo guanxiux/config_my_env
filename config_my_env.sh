@@ -5,8 +5,8 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/.zshpkg/power
 git clone https://github.com/zsh-users/zsh-history-substring-search.git ~/.zshpkg/zsh-history-substring-search
 
 # git clone --depth=1 https://github.com/guanxiux/myzsh.git ~/.zshpkg/myzsh
-cp ~/.zshpkg/myzsh/.zshrc .
-cp ~/.zshpkg/myzsh/.p10k.zsh .
+cp .zshrc ~/
+cp .p10k.zsh ~/
 
 cd
 git clone --depth=1 https://github.com/gpakosz/.tmux.git
