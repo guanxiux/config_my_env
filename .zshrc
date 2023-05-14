@@ -29,20 +29,5 @@ alias ls='ls --color'
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
-alias goproxy='cd ~/goproxy && bash goproxy.sh && cd -'
 
-alias code="/mnt/c/Users/guanxiuxian/AppData/Local/Programs/Microsoft\ VS\ Code/bin/code"
-export ALL_PROXY="http://127.0.0.1:8080"
-export HTTP_PROXY="http://127.0.0.1:8080"
-export HTTPS_PROXY="http://127.0.0.1:8080"
-export http_proxy="http://127.0.0.1:8080"
-export https_proxy="http://127.0.0.1:8080"
 export NVIDIA_DRIVER_CAPABILITIES=all
-
-# Automatically start goproxy in tmux
-# Check if the session exists, discarding output
-# We can check $? for the exit status (zero for success, non-zero for failure)
-tmux has-session -t goproxy 2>/dev/null
-if [ $? != 0 ]; then
-   tmux new -d -s goproxy && tmux send-keys -t goproxy.1 "goproxy" ENTER;
-fi
