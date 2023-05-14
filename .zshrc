@@ -10,7 +10,11 @@ HISTFILE=~/.histfile
 HISTSIZE=10000
 SAVEHIST=10000
 bindkey -e
+setopt INC_APPEND_HISTORY
+setopt HIST_FIND_NO_DUPS
+setopt HIST_IGNORE_ALL_DUPS
 # End of lines configured by zsh-newuser-install
+
 source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source ~/.zshpkg/powerlevel10k/powerlevel10k.zsh-theme
