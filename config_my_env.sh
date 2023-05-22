@@ -1,5 +1,5 @@
 sudo apt update
-sudo apt install git zsh curl wget zsh-autosuggestions zsh-syntax-highlighting
+sudo apt install git zsh curl wget zsh-autosuggestions zsh-syntax-highlighting tmux
 mkdir -p ~/.zshpkg
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/.zshpkg/powerlevel10k
 git clone https://github.com/zsh-users/zsh-history-substring-search.git ~/.zshpkg/zsh-history-substring-search
