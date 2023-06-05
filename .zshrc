@@ -19,6 +19,7 @@ source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source ~/.zshpkg/powerlevel10k/powerlevel10k.zsh-theme
 source ~/.zshpkg/zsh-history-substring-search/zsh-history-substring-search.zsh
+source ~/.zshpkg/zsh-z/zsh-z.plugin.zsh
 
 bindkey "$terminfo[kcuu1]" history-substring-search-up
 bindkey "$terminfo[kcud1]" history-substring-search-down
