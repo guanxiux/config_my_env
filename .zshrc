@@ -13,6 +13,7 @@ bindkey -e
 setopt INC_APPEND_HISTORY
 setopt HIST_FIND_NO_DUPS
 setopt HIST_IGNORE_ALL_DUPS
+setopt HIST_IGNORE_SPACE
 # End of lines configured by zsh-newuser-install
 
 source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
