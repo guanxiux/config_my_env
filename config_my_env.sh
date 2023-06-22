@@ -13,3 +13,6 @@ cd
 git clone --depth=1 https://github.com/gpakosz/.tmux.git
 ln -s -f .tmux/.tmux.conf
 cp .tmux/.tmux.conf.local .
+
+chsh -s /bin/zsh
+exit
