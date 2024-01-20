@@ -15,14 +15,14 @@ ln -s -f .tmux/.tmux.conf
 cp .tmux/.tmux.conf.local .
 
 # Install NVIM
-sudo rm /usr/bin/vim ;
-wget https://github.com/neovim/neovim/releases/download/stable/nvim-linux64.tar.gz &&\
-sudo tar -xf nvim-linux64.tar.gz -C /opt &&\
-rm nvim-linux64.tar.gz &&\
-sudo ln -s /opt/nvim-linux64/bin/nvim /usr/bin/nvim &&\
-sudo ln -s /opt/nvim-linux64/bin/nvim /usr/bin/vim
+# sudo rm /usr/bin/vim ;
+# wget https://github.com/neovim/neovim/releases/download/stable/nvim-linux64.tar.gz &&\
+# sudo tar -xf nvim-linux64.tar.gz -C /opt &&\
+# rm nvim-linux64.tar.gz &&\
+# sudo ln -s /opt/nvim-linux64/bin/nvim /usr/bin/nvim &&\
+# sudo ln -s /opt/nvim-linux64/bin/nvim /usr/bin/vim
 
-git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1
+# git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1
 
 chsh -s /bin/zsh
 exit
