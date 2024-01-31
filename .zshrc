@@ -19,8 +19,8 @@ setopt HIST_FIND_NO_DUPS
 setopt HIST_SAVE_NO_DUPS
 # End of lines configured by zsh-newuser-install
 
-source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source ~/.zshpkg/zsh-autosuggestions/zsh-autosuggestions.zsh
+source ~/.zshpkg/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source ~/.zshpkg/powerlevel10k/powerlevel10k.zsh-theme
 source ~/.zshpkg/zsh-history-substring-search/zsh-history-substring-search.zsh
 source ~/.zshpkg/zsh-z/zsh-z.plugin.zsh
@@ -35,4 +35,5 @@ alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
 
+export TERM=xterm-256color
 export NVIDIA_DRIVER_CAPABILITIES=all
